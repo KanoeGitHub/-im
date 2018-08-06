@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0A54A420CE5AF40074C075 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A54A320CE5AF40074C075 /* HomeViewController.swift */; };
+		7A0A54A620CE5B250074C075 /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0A54A520CE5B250074C075 /* HomeStoryboard.storyboard */; };
 		7A262C9720CBC04E000DD62A /* makePiClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A262C9620CBC04E000DD62A /* makePiClass.swift */; };
 		7AB9D3D320BD4EEB00EC09DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9D3D220BD4EEB00EC09DC /* AppDelegate.swift */; };
 		7AB9D3D520BD4EEB00EC09DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9D3D420BD4EEB00EC09DC /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A0A54A320CE5AF40074C075 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7A0A54A520CE5B250074C075 /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
 		7A262C9620CBC04E000DD62A /* makePiClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makePiClass.swift; sourceTree = "<group>"; };
 		7AB9D3CF20BD4EEB00EC09DC /* πim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "πim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB9D3D220BD4EEB00EC09DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				7AB9D3D920BD4EEB00EC09DC /* Assets.xcassets */,
 				7AB9D3DB20BD4EEB00EC09DC /* LaunchScreen.storyboard */,
 				7AB9D3DE20BD4EEB00EC09DC /* Info.plist */,
+				7A0A54A320CE5AF40074C075 /* HomeViewController.swift */,
+				7A0A54A520CE5B250074C075 /* HomeStoryboard.storyboard */,
 			);
 			path = "πim";
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 			files = (
 				7AB9D3DD20BD4EEB00EC09DC /* LaunchScreen.storyboard in Resources */,
 				7AB9D3DA20BD4EEB00EC09DC /* Assets.xcassets in Resources */,
+				7A0A54A620CE5B250074C075 /* HomeStoryboard.storyboard in Resources */,
 				7AB9D3D820BD4EEB00EC09DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +149,7 @@
 				7AB9D3D520BD4EEB00EC09DC /* ViewController.swift in Sources */,
 				7A262C9720CBC04E000DD62A /* makePiClass.swift in Sources */,
 				7AB9D3D320BD4EEB00EC09DC /* AppDelegate.swift in Sources */,
+				7A0A54A420CE5AF40074C075 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
