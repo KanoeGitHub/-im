@@ -29,12 +29,14 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var piView: UILabel!
     
+    @IBOutlet weak var digitcountLabel: UILabel!
     
     @IBAction func zeroButton(_ sender: Any) {
         if pi01[counter] == 0{
             answerString = answerString + "0"
             piView.text = answerString
             counter = counter + 1
+            digitcountLabel.text = "現在小数点第" + String(counter) + "位"
         }
             
         else if pi01[counter] != 0{
@@ -50,6 +52,7 @@ class ViewController: UIViewController {
         answerString = answerString + "1"
         piView.text = answerString
         counter = counter + 1
+        digitcountLabel.text = "現在小数点第" + String(counter) + "位"
         }
         
         else if pi01[counter] != 1{
@@ -66,6 +69,7 @@ class ViewController: UIViewController {
             answerString = answerString + "2"
             piView.text = answerString
             counter = counter + 1
+            digitcountLabel.text = "現在小数点第" + String(counter) + "位"
         }
         else if pi01[counter] != 2{
             piView.text = "F●●K U!"
@@ -80,6 +84,7 @@ class ViewController: UIViewController {
             answerString = answerString + "3"
             piView.text = answerString
             counter = counter + 1
+            digitcountLabel.text = "現在小数点第" + String(counter) + "位"
         }
         else if pi01[counter] != 3{
             piView.text = "F●●K U!"
@@ -94,6 +99,7 @@ class ViewController: UIViewController {
             answerString = answerString + "4"
             piView.text = answerString
             counter = counter + 1
+            digitcountLabel.text = "現在小数点第" + String(counter) + "位"
         }
         else if pi01[counter] != 4{
             piView.text = "F●●K U!"
@@ -108,6 +114,7 @@ class ViewController: UIViewController {
             answerString = answerString + "5"
             piView.text = answerString
             counter = counter + 1
+            digitcountLabel.text = "現在小数点第" + String(counter) + "位"
         }
         else if pi01[counter] != 5{
             piView.text = "F●●K U!"
@@ -122,6 +129,7 @@ class ViewController: UIViewController {
             answerString = answerString + "6"
             piView.text = answerString
             counter = counter + 1
+            digitcountLabel.text = "現在小数点第" + String(counter) + "位"
         }
         else if pi01[counter] != 6{
             piView.text = "F●●K U!"
@@ -136,6 +144,7 @@ class ViewController: UIViewController {
             answerString = answerString + "7"
             piView.text = answerString
             counter = counter + 1
+            digitcountLabel.text = "現在小数点第" + String(counter) + "位"
         }
         else if pi01[counter] != 7{
             piView.text = "F●●K U!"
@@ -150,6 +159,7 @@ class ViewController: UIViewController {
             answerString = answerString + "8"
             piView.text = answerString
             counter = counter + 1
+            digitcountLabel.text = "現在小数点第" + String(counter) + "位"
         }
         else if pi01[counter] != 8{
             piView.text = "F●●K U!"
@@ -164,6 +174,7 @@ class ViewController: UIViewController {
             answerString = answerString + "9"
             piView.text = answerString
             counter = counter + 1
+            digitcountLabel.text = "現在小数点第" + String(counter) + "位"
         }
         else if pi01[counter] != 9{
             piView.text = "F●●K U!"
@@ -177,6 +188,7 @@ class ViewController: UIViewController {
         answerString = "3."
         piView.text = answerString
         counter = 0
+        digitcountLabel.text = "Are You Ready?"
     }
 }
 

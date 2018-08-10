@@ -80,11 +80,17 @@
                                 </constraints>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6QR-Go-SXH">
-                                <rect key="frame" x="0.0" y="734" width="53" height="44"/>
+                                <rect key="frame" x="0.0" y="734" width="59" height="44"/>
+                                <color key="backgroundColor" red="0.11342292746113991" green="0.11342292746113991" blue="0.11342292746113991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title=" Quit">
+                                <state key="normal" title=" Quit ">
                                     <color key="titleColor" red="1" green="0.11468971648446757" blue="0.13952239096510621" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="loG-hn-AwD" kind="show" id="n53-2g-jrH"/>
                                 </connections>
@@ -242,6 +248,13 @@
                                     <action selector="sevenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LC0-7J-BDQ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are You Ready?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmj-XR-ldD">
+                                <rect key="frame" x="74" y="363" width="226" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -298,6 +311,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="digitcountLabel" destination="dmj-XR-ldD" id="THH-vO-D9T"/>
                         <outlet property="piView" destination="vcN-az-b5y" id="eh6-HT-xps"/>
                         <outlet property="scrollView" destination="sUL-K7-Tk0" id="Z8f-Jv-l2r"/>
                     </connections>
